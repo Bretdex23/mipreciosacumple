@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Feliz Cumpleaños, Ale!</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    
+    h1 {
+      color: red;
+    }
+    
+    p {
+      font-size: 18px;
+    }
+  </style>
+  
+  <script>
+    function irACarta() {
+      // Scroll suave hacia la sección de la carta
+      document.getElementById('seccion-carta').scrollIntoView({ behavior: 'smooth' });
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <h1>¡Feliz Cumpleaños, Ale!</h1>
+  </header>
+  
+  <section>
+    <h2>Querida Ale,</h2>
+    <p>En este día especial, quiero desearte un cumpleaños increíble y lleno de felicidad. ¡Hoy cumples 18 años y es un hito importante en tu vida! También quiero aprovechar esta oportunidad para celebrar nuestros 2 años, 2 meses, 12 dias de relación. Han sido dos años maravillosos llenos de amor, risas y hermosos recuerdos, te adoro con todo mi corazon.</p>
+    
+    <p>Ale, eres la persona más especial en mi vida y no puedo imaginar mi mundo sin ti. Tu alegría, bondad y ternura iluminan cada momento que compartimos juntos. Estoy agradecido por cada instante que hemos pasado y emocionado por los futuros momentos que todavía tenemos por vivir.</p>
+    
+    <p>En este día tan significativo, quiero que sepas cuánto te amo y valoro. Eres mi apoyo, mi mejor amiga y mi confidente. Siempre estaré aquí para ti, en los buenos y malos momentos. Espero que este cumpleaños sea el inicio de un nuevo año lleno de bendiciones y éxitos para ti.</p>
+    
+    <p>¡Feliz cumpleaños, mi amor! Que este día esté lleno de sorpresas, risas y mucho amor. Te quiero hoy, mañana y siempre.</p>
+    
+    <p>Con todo mi cariño,</p>
+    <p>tu novio</p>
+  </section>
+  
+  <button onclick="irACarta()">Leer la carta</button>
+  
+  <section id="seccion-carta">
+    <!-- Aquí puedes agregar el contenido de la carta -->
+  </section>
+  
+  <footer>
+    <p>&copy; teamopreciosa</p>
+  </footer>
+</body>
+</html>
